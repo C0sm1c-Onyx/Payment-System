@@ -15,7 +15,9 @@ DB_PORT='3306'
 ```
 Установите зависимости
 ```bash
-pip install -r requeirements.txt
+cd Payment-Service
+
+pip install -r requirements.txt
 ```
 Выполните миграции
 ```bash
