@@ -5,7 +5,7 @@
 ```bash
 git clone https://github.com/C0sm1c-Onyx/Payment-System.git
 ```
-Отредактируйте переменный окружения под свои значения
+Отредактируйте переменные окружения под свои значения
 ```env
 DB_NAME='db'
 DB_USER='root'
