@@ -42,6 +42,7 @@ http://127.0.0.1:8000/admin
 ## API
 1.  POST http://127.0.0.1:8000/api/webhook/bank/
 Принимает JSON следующего вида:
+```bash
 {
   "operation_id": "ccf0a86d-041b-4991-bcf7-e2352f7b8a4a",
   "amount": 145000,
@@ -49,14 +50,16 @@ http://127.0.0.1:8000/admin
   "document_number": "PAY-328",
   "document_date": "2024-04-27T21:00:00Z"
 }
+```
 
 Создает Payment, если такая операция с таким id еще не производилась
 После срабатывает сигнал, если создался Payment и начисляет amount для организации по payer_inn
 
 2. GET http://127.0.0.1:8000/api/organizations/<inn>/balance
 Выводит текущий баланс организации по инн
+```bash
 {
    "inn": "1234567890",
    "balance": 1000.00
 }
-
+```
