@@ -3,7 +3,7 @@
 ## Установка и настройка окружения
 Склонируйте репозиторий
 ```bash
-git clone 
+git clone https://github.com/C0sm1c-Onyx/Payment-System.git
 ```
 Отредактируйте переменный окружения под свои значения
 ```env
