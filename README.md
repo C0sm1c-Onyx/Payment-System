@@ -55,7 +55,7 @@ http://127.0.0.1:8000/admin
 Создает Payment, если такая операция с таким id еще не производилась
 После срабатывает сигнал, если создался Payment и начисляет amount для организации по payer_inn
 
-2. GET http://127.0.0.1:8000/api/organizations/<inn>/balance
+2. GET http://127.0.0.1:8000/api/organizations/1234567890/balance
 Выводит текущий баланс организации по инн
 ```bash
 {
